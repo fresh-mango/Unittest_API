@@ -2,7 +2,6 @@
 Python+unittest+HTMLTestRunner
 
 common：
-
 --assert_result.py：自定义断言，在断言的时候可以调入该类
 --dependent_data.py：运行依赖接口，获取依赖测试用例数据
 --get_excel_data.py：获取excel文档上的数据
@@ -10,10 +9,12 @@ common：
 --HTMLTestRunner.py：这个是HTMLTestRunner源文件
 --http_request.py：这个文件主要来通过get、post、put、delete等方法来进行http请求，并拿到请求响应
 
+
 config:
 --caselist.txt:配置将要执行testCase目录下的哪些用例文件，前加#代表不进行执行。当项目过于庞大，用例足够多的时候，我们可以通过这个开关，来确定本次执行哪些接口的哪些用例。
 --config.ini：数据库、邮箱、接口、日志等的配置项，用于方便的调用读取
 --header.json：请求头信息
+
 
 data:
 --expected_result.json:预期结果数据
