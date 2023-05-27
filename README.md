@@ -1,5 +1,5 @@
 # Unittest_API
-Python+unittest+HTMLTestRunner数据驱动接口自动化测试框架,共七个大模块，详细信息如下说明。
+Python+unittest+requests+HTMLTestRunner+Jenkins数据驱动接口自动化测试框架,共七个大模块，详细信息如下说明。
 
 
 
