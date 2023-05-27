@@ -1,7 +1,10 @@
 # Unittest_API
 Python+unittest+HTMLTestRunner
 
+
+
 common：
+
 --assert_result.py：自定义断言，在断言的时候可以调入该类
 
 --dependent_data.py：运行依赖接口，获取依赖测试用例数据
@@ -29,7 +32,9 @@ config:
 data:
 
 --expected_result.json:预期结果数据
+
 --request_data.json：请求数据信息
+
 --Testcase.xlsx：测试用例case
 
 
@@ -37,6 +42,7 @@ data:
 result:
 
 --log:生成的日志文件
+
 --report:生成的测试报告
 
 
@@ -50,9 +56,13 @@ run_main:
 testcase:
 
 --test_case.py:常规test_case模板,case维护在程序代码中
+
 --test_case_ddt.py:ddt模板，case参数化方式为ddt
+
 --test_case_dependent.py:依赖接口模板，主要是处理依赖接口逻辑关系
+
 --test_case_parameterized.py：parameterized模板，case参数化方式为parameterized
+
 --test_login.py：登录case,登录成功后将请求头信息存储至配置文件
 
 
@@ -60,11 +70,18 @@ testcase:
 utils:
 
 --config.py:读取配置文件的方法，并返回文件中内容
+
 --connect_db.py:这个文件是数据库连接池的相关内容
+
 --dateencoder_json.py:数据转码，在连接数据库时需要调入该类
+
 --e_mail.py：这个文件主要是配置发送邮件的主题、正文等，将测试报告发送并抄送到相关人邮箱的逻辑
+
 --log.py：调用该类的方法，用来打印生成日志
+
 --operate_excel.py：封装读取Excel的方法
+
 --operate_header.py：封装请求头信息
+
 --operate_json.py：封装读取json的方法
 
