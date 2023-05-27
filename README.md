@@ -3,7 +3,9 @@ Python+unittest+HTMLTestRunner数据驱动接口自动化测试框架,共七个�
 
 
 
-一、common：
+
+
+common：
 
 --assert_result.py：自定义断言，在断言的时候可以调入该类
 
