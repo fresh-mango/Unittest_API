@@ -4,10 +4,15 @@ Python+unittest+HTMLTestRunner
 common：
 
 --assert_result.py：自定义断言，在断言的时候可以调入该类
+
 --dependent_data.py：运行依赖接口，获取依赖测试用例数据
+
 --get_excel_data.py：获取excel文档上的数据
+
 --get_expect_result.py：获取预期结果数据
+
 --HTMLTestRunner.py：这个是HTMLTestRunner源文件
+
 --http_request.py：这个文件主要来通过get、post、put、delete等方法来进行http请求，并拿到请求响应
 
 
