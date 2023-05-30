@@ -1,0 +1,4 @@
+2023-05-24 17:13:08,233 - test_case.py  - [line:62] - INFO: 请求响应信息：
+2023-05-24 17:13:08,234 - test_case.py  - [line:63] - INFO: {'code': 100005, 'data': {}, 'msg': '通用品牌编码重复！', 'success': False}
+2023-05-24 17:13:42,034 - test_case.py  - [line:62] - INFO: 请求响应信息：
+2023-05-24 17:13:42,036 - test_case.py  - [line:63] - INFO: {'code': 100005, 'data': {}, 'msg': '通用品牌编码重复！', 'success': False}

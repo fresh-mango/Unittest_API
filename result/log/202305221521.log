@@ -1,0 +1,4 @@
+2023-05-22 15:21:07,457 - test_case_dependent.py  - [line:85] - INFO: 请求响应信息：
+2023-05-22 15:21:07,457 - test_case_dependent.py  - [line:86] - INFO: {'code': 200, 'data': {'carBrandVO': {}, 'carFirmVO': {}, 'carSeriesVO': {}}, 'msg': '操作成功', 'success': True}
+2023-05-22 15:21:07,807 - test_case_dependent.py  - [line:85] - INFO: 请求响应信息：
+2023-05-22 15:21:07,807 - test_case_dependent.py  - [line:86] - INFO: {'code': 400, 'data': {}, 'msg': '缺少必要的请求参数: id', 'success': False}
